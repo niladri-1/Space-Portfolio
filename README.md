@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Animated Portfolio Website with Next.js and Framer Motion
 
-## Getting Started
+This project showcases a visually appealing and interactive portfolio built with Next.js and Framer Motion. Below are the key steps and technologies used to create and deploy this project.
 
-First, run the development server:
+## Project Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Create Project Folder**: Open in Visual Studio Code.
+2. **Initialize Next.js App**: 
+   ```sh
+   npx create-next-app@latest space-portfolio --typescript
+   ```
+3. **Install Dependencies**: 
+   ```sh
+   npm install framer-motion react-intersection-observer @react-three/fiber @react-icons/all-files
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Code Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Components Folder**: Organize main and sub-components like `Hero`, `HeroContent`, `Footer`.
+- **Utils Folder**: Store utility functions for animations.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Styling
 
-## Learn More
+- **Tailwind CSS**: Use for styling and create custom CSS classes.
 
-To learn more about Next.js, take a look at the following resources:
+## Functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framer Motion**: Implement animations for the hero section and content reveals.
+- **Responsiveness**: Ensure using Tailwind CSS classes.
+- **Social Media Integration**: Add icons and contact information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+1. **Create GitHub Repository**: Push project code.
+   ```sh
+   git init
+   git remote add origin <your-repo-url>
+   git add .
+   git commit -m "Initial commit"
+   git push -u origin main
+   ```
+2. **Deploy to Netlify**: Easy hosting and management.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Additional Details
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Video Length**: 1 hour, 2 minutes, and 22 seconds
+- **Likes**: 4,639
+- **Views**: 182,169
+- **Published On**: October 26, 2023
+- **Creator**: WebChain Dev
+
+## Contact
+
+- **GitHub**: [niladri-1](https://github.com/niladri-1)
+- **Portfolio**: [niladri1.netlify.app](https://niladri1.netlify.app)
+- **LinkedIn**: [niladri1](https://linkedin.com/in/niladri1)
+
+---
